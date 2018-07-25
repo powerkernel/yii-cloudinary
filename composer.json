@@ -1,36 +1,36 @@
 {
-    "name": "nikosid/yii2-cloudinary",
-    "description": "Yii2 Cloudinary Component",
+    "name": "powerkernel/yii-cloudinary",
+    "description": "Yii Cloudinary Component",
     "type": "yii2-extension",
     "keywords": [
-        "nikosid",
         "yii",
-        "yii2",
-        "yii 2",
         "extension",
         "behavior",
         "cloudinary"
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/nikosid/yii2-cloudinary/issues",
-        "source": "https://github.com/nikosid/yii2-cloudinary"
+        "issues": "https://github.com/powerkernel/yii-cloudinary/issues",
+        "source": "https://github.com/powerkernel/yii-cloudinary"
     },
     "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.6",
-        "cloudinary/cloudinary_php": "dev-master",
-        "mongosoft/yii2-upload-behavior": "*"
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "3.0.x-dev",
+        "cloudinary/cloudinary_php": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "nikosid\\cloudinary\\": "src"
+            "powerkernel\\yiicloudinary\\": "src"
         }
     },
     "authors": [
         {
             "name": "nikosid",
             "email": "nikosid@gmail.com"
-        }
+        },
+        {
+            "name": "Harry Tang",
+            "email": "harry@powerkernel.com"
+        },
     ]
 }
