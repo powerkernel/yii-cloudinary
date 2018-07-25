@@ -1,6 +1,6 @@
 <?php
 
-namespace nikosid\cloudinary;
+namespace powerkernel\yiicloudinary;
 
 use Cloudinary;
 use Cloudinary\Uploader;
