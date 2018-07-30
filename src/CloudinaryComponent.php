@@ -1,12 +1,21 @@
 <?php
+/**
+ * @author Harry Tang <harry@powerkernel.com>
+ * @link https://powerkernel.com
+ * @copyright Copyright (c) 2018 Power Kernel
+ */
 
 namespace powerkernel\yiicloudinary;
 
-use Cloudinary;
+use Cloudinary; 
 use Cloudinary\Uploader;
 use yii\base\Component;
 use yii\helpers\Url;
 
+/**
+ * Class CloudinaryComponent
+ * @package powerkernel\yiicloudinary
+ */
 class CloudinaryComponent extends Component
 {
     public $cloud_name;
