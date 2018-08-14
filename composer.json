@@ -1,36 +1,35 @@
 {
-    "name": "powerkernel/yii-cloudinary",
-    "description": "Yii Cloudinary Component",
-    "type": "yii2-extension",
-    "keywords": [
-        "yii",
-        "extension",
-        "behavior",
-        "cloudinary"
-    ],
-    "license": "MIT",
-    "support": {
-        "issues": "https://github.com/powerkernel/yii-cloudinary/issues",
-        "source": "https://github.com/powerkernel/yii-cloudinary"
+  "name": "powerkernel/yii-cloudinary",
+  "description": "Yii Cloudinary Component",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii",
+    "extension",
+    "behavior",
+    "cloudinary"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/powerkernel/yii-cloudinary/issues",
+    "source": "https://github.com/powerkernel/yii-cloudinary"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "cloudinary/cloudinary_php": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "powerkernel\\yiicloudinary\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "nikosid",
+      "email": "nikosid@gmail.com"
     },
-    "require": {
-        "php": ">=7.1.0",
-        "yiisoft/yii2": "3.0.x-dev",
-        "cloudinary/cloudinary_php": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "powerkernel\\yiicloudinary\\": "src"
-        }
-    },
-    "authors": [
-        {
-            "name": "nikosid",
-            "email": "nikosid@gmail.com"
-        },
-        {
-            "name": "Harry Tang",
-            "email": "harry@powerkernel.com"
-        }
-    ]
+    {
+      "name": "Harry Tang",
+      "email": "harry@powerkernel.com"
+    }
+  ]
 }
